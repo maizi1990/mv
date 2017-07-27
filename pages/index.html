@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta name="applicable-device" content="pc">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="application-name" content="秒味云盘">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="keywords" content="秒味云盘">
+  <title>秒味云盘</title>
+  <link rel="stylesheet" href="../assets/css/index.css">
+</head>
+<body>
+
+
+  <section class="miaov-yun-container">
+    <!-- 头部 -->
+    <header class="miaov-yun-header">
+      <div class="left">
+        <div class="fl item img-wraper">
+          <img src="../assets/img/logo.png" alt="" class="logo">
+        </div>
+        <h1 class="fl item title">秒味云盘</h1>
+      </div>
+
+      <div class="right fr">
+        <div class="fr setting">
+          <div class="setting-img"></div>
+        </div>
+        <div class="fr user">
+          <div class="user-avatar-wraper">
+            <img src="../assets/img/avatar.jpg" alt="">
+          </div>
+          <i class="user-arrow"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- 导航 -->
+    <nav class="miaov-yun-nav">
+      <div class="operate">
+        <div class="btn spread"></div>
+        <div class="btn more hover">
+          <ul class="more-list">
+            <li class="more-item time">按时间排序</li>
+            <li class="more-item order">按字母排序</li>
+            <li class="more-item map">显示缩略图</li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn-group">
+        <div class="btn download">下载</div><div class="btn share">分享</div><div class="btn move">移动到</div><div class="btn rename">重命名</div><div class="btn delete">删除</div><div class="btn new-folder">新建文件夹</div><div class="btn refresh"></div>
+      </div>
+    </nav>
+
+    <!-- 主体内容 -->
+    <div class="miaov-yun-body">
+      <!-- 导航树 -->
+      <!-- 数据需要待渲染, 这里mock下 -->
+      <div class="miaov-yun-body-tree">
+        <!-- 模板 -->
+        <!--<ul class="tree-list">
+          <li class="tree-item">
+            <div class="tree-title" style="padding-left: 76px;">
+              <div class="wraper">
+                <span class="arrow before"></span>
+                <i class="folder before"></i>
+                <div class="name">123</div>
+              </div>
+            </div>
+          </li>
+        </ul>-->
+
+        <ul class="tree-list">
+          <li class="tree-item">
+            <!-- 20px 是基础单位 -->
+            <div class="tree-title open" style="padding-left: 20px;">
+              <div class="wraper">
+                <span class="arrow before"></span>
+                <i class="folder before"></i>
+                <div class="name">微云</div>
+              </div>
+            </div>
+
+            <!-- 列表 -->
+            <ul class="tree-list">
+              <li class="tree-item">
+                <!-- 20 + 28px, 没多一个数多一个28px, yongjs计算 -->
+                <div class="tree-title open selected" style="padding-left: 48px;">
+                  <div class="wraper">
+                    <span class="arrow before"></span>
+                    <i class="folder before"></i>
+                    <div class="name">js课程</div>
+                  </div>
+                </div>
+
+                <!-- 列表 -->
+                <ul class="tree-list">
+                  <li class="tree-item">
+                    <!-- 20 + 28 -->
+                    <div class="tree-title" style="padding-left: 76px;">
+                      <div class="wraper">
+                        <span class="arrow before"></span>
+                        <i class="folder before"></i>
+                        <div class="name">123</div>
+                      </div>
+                    </div>
+
+                    <div class="tree-title" style="padding-left: 76px;">
+                      <div class="wraper">
+                        <span class="arrow before"></span>
+                        <i class="folder before"></i>
+                        <div class="name">333</div>
+                      </div>
+                    </div>
+
+                    <ul class="tree-list">
+                      <li class="tree-item">
+                        <div class="tree-title open" style="padding-left: 76px;">
+                          <div class="wraper">
+                            <span class="arrow before"></span>
+                            <i class="folder before"></i>
+                            <div class="name">css课程</div>
+                          </div>
+                        </div>
+
+                        <ul class="tree-list">
+                          <li class="tree-item">
+                            <div class="tree-title " style="padding-left: 104px;">
+                              <div class="wraper">
+                                <span class="arrow before"></span>
+                                <i class="folder before"></i>
+                                <div class="name">css课程</div>
+                              </div>
+                            </div> 
+
+                            <div class="tree-title " style="padding-left: 104px;">
+                              <div class="wraper">
+                                <span class="arrow before"></span>
+                                <i class="folder before"></i>
+                                <div class="name">123</div>
+                              </div>
+                            </div> 
+
+                            <div class="tree-title " style="padding-left: 104px;">
+                              <div class="wraper">
+                                <span class="arrow before"></span>
+                                <i class="folder before"></i>
+                                <div class="name">js基础课程</div>
+                              </div>
+                            </div>                            
+                          </li>
+                        </ul>
+
+                        <div class="tree-title" style="padding-left: 76px;">
+                          <div class="wraper">
+                            <span class="arrow before"></span>
+                            <i class="folder before"></i>
+                            <div class="name">111</div>
+                          </div>
+                        </div>
+
+                        <div class="tree-title" style="padding-left: 76px;">
+                          <div class="wraper">
+                            <span class="arrow before"></span>
+                            <i class="folder before"></i>
+                            <div class="name">111</div>
+                          </div>
+                        </div>
+                        
+                      </li>
+                    </ul>
+
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </li>
+        </ul>
+      </div>
+
+      <!-- 内容区 -->
+      <div class="miaov-yun-body-content ">
+        <div class="breadcrumbs">
+          <div class="checkbox-block">
+            <span class="checkbox-simulate"></span>
+            <input type="checkbox" name="" id="">
+          </div>
+
+          <div class="breadcrumbs-links">
+            <a href="#" class="item href">微云</a>
+            <span class="item separator"></span>
+            <a href="#" class="item href">js课程</a>
+            <span class="item separator"></span>
+            <a href="#" class="item href">css课程</a>
+            <span class="item separator"></span>
+            <a href="javascript:void(0)" class="item href active">js基础课程</a>
+            <div class="active-bar"></div>
+          </div>
+
+        </div>
+
+        <table class="table-content">
+          <tbody>
+            <tr>
+              <td class="checkbox-td">
+                <div class="checkbox-block">
+                  <span class="checkbox-simulate"></span>
+                  <input type="checkbox" name="" id="">
+                </div>
+              </td>  
+
+              <td class="file-td">
+                <i class="fold-icon"></i>
+                <span class="file-name">
+                  JS基础课程
+                </span>
+              </td>
+
+              <td class="btns-td">
+                <div class="btns">
+                  <div class="btn cloud"></div>
+                  <div class="btn share"></div>
+                  <div class="btn move"></div>
+                  <div class="btn rename"></div>
+                  <div class="btn delete"></div>
+                </div>
+              </td>
+
+              <td class="time-td">
+                <div class="time">
+                  2017-02-20 00:00
+                </div>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="checkbox-td">
+                <div class="checkbox-block">
+                  <span class="checkbox-simulate"></span>
+                  <input type="checkbox" name="" id="">
+                </div>
+              </td>  
+
+              <td class="file-td">
+                <i class="fold-icon"></i>
+                <span class="file-name">
+                  java基础课程
+                </span>
+              </td>
+
+              <td class="btns-td">
+                <div class="btns">
+                  <div class="btn cloud"></div>
+                  <div class="btn share"></div>
+                  <div class="btn move"></div>
+                  <div class="btn rename"></div>
+                  <div class="btn delete"></div>
+                </div>
+              </td>
+
+              <td class="time-td">
+                <div class="time">
+                  2017-02-20 00:00
+                </div>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="checkbox-td">
+                <div class="checkbox-block">
+                  <span class="checkbox-simulate"></span>
+                  <input type="checkbox" name="" id="">
+                </div>
+              </td>  
+
+              <td class="file-td">
+                <i class="fold-icon"></i>
+                <span class="file-name">
+                  css基础课程
+                </span>
+              </td>
+
+              <td class="btns-td">
+                <div class="btns">
+                  <div class="btn cloud"></div>
+                  <div class="btn share"></div>
+                  <div class="btn move"></div>
+                  <div class="btn rename"></div>
+                  <div class="btn delete"></div>
+                </div>
+              </td>
+
+              <td class="time-td">
+                <div class="time">
+                  2017-02-20 00:00
+                </div>
+              </td>
+
+            </tr>
+
+
+          </tbody>
+          <!--<li></li>
+          <li></li>-->
+        </table>
+      </div>
+
+    </div>
+
+
+  </section>
+
+</body>
+</html>
